@@ -66,7 +66,7 @@ Reset and play again
 How to Run the Projects
 Clone this repository:
 Edit
-git clone https://github.com/Sumitdixit2/JavaScript-Projects.git
+git clone https://github.com/username/project.git
 Navigate to the project folder:
 
 Edit
