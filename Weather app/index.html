@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast</h1>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Enter city name">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="current-weather">
+            <h2>Weather : </h2>
+            <div class="weather-info">
+                <div id="location"></div>
+                <div id="temperature"></div>
+                <div id="description"></div>
+            </div>
+        </section>
+
+        <section id="forecast">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast-container">
+                <!-- Forecast items will be added here dynamically -->
+            </div>
+        </section>
+
+        <section id="weather-details">
+            <h2>Weather Details</h2>
+            <div class="details-container">
+                <div class="detail-item">
+                    <span class="detail-label">Humidity:</span>
+                    <span id="humidity" class="detail-value"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Wind Speed:</span>
+                    <span id="wind-speed" class="detail-value"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Pressure:</span>
+                    <span id="pressure" class="detail-value"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Visibility:</span>
+                    <span id="visibility" class="detail-value"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Weather Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

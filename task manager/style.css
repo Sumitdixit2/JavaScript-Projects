@@ -1,0 +1,49 @@
+body {
+   background-color: cornflowerblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.container{
+    background-color: aliceblue;
+    color: darkslategrey;
+    font-size: large;
+    font-weight: bolder;
+    width: 500px;
+    height: 300px;
+    border: 0px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ver{
+    height: 30px;
+    width: 150px;
+    border: 0px solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+button{
+    background-color: orange;
+    padding: 7px;
+    border: 0px solid;
+    border-radius: 12px;
+}
+
+#display{
+    background-color: aliceblue;
+    color: darkslategrey;
+    font-size: large;
+    font-weight: bolder;
+    width: 500px;
+    height: 300px;
+    border: 0px solid;
+    border-radius: 15px;
+}

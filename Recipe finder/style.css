@@ -1,0 +1,150 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FAF3DD; /* Cream background */
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark text color for contrast */
+}
+
+/* Input Section */
+#input {
+  font-size: 2rem;
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+
+#input h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 180px;
+  height: 40px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #FFA69E; /* Focus border color to match buttons */
+}
+
+/* Buttons (Add, Search, More) */
+#add,
+#search,
+#More {
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  background-color: #FFA69E; /* Soft salmon */
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-right: 10px;
+}
+
+#search {
+  margin-right: 0; /* So the last button doesn't have extra spacing */
+}
+
+#More {
+  margin-top: 20px;
+  width: 90px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+#add:hover,
+#search:hover,
+#More:hover {
+  background-color: #F08A7C; /* Slightly darker salmon on hover */
+  transform: scale(1.05);
+}
+
+/* Ingredients List */
+ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+ul li {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Output Section */
+#outputs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Wrap if screen is small */
+  gap: 20px;  
+  display: none;     /* Space between cards */
+}
+
+/* Recipe Card Styling */
+.output {
+  width: 270px;
+  min-height: 380px;
+  background-color: #B8F2E6; /* Light Turquoise for cards */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Recipe Image */
+#image {
+  height: 150px;
+  width: 220px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  background-color: #fff; /* placeholder if no image */
+}
+
+/* Title inside the Card */
+#title {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Content Sections */
+#content,
+#content1,
+#content2 {
+  margin: 5px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* "More" Link */
+#More a {
+  text-decoration: none;
+  color: white;
+}
+
+#More a:hover {
+  color: #e2e2e2;
+}
